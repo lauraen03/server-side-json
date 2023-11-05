@@ -32,8 +32,8 @@ const showRecipes = async () => {
       const img = document.createElement('img');
       img.src = recipe.image;
       img.alt = `${recipe.name} Image`;
-      img.style.width = '200px'; // Set the fixed width
-      img.style.height = '200px'; // Set the fixed height
+      img.style.width = '200px'; 
+      img.style.height = '200px'; 
       itemDiv.appendChild(img);
     });
   } catch (error) {
